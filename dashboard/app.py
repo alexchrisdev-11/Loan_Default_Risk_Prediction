@@ -409,11 +409,3 @@ elif selected_tab == "🎯 Applicant Approval Simulator":
 
             st.caption(assessment["notice"])
 
-# Footer
-st.markdown("---")
-st.markdown("""
-<div style="text-align: center; color: #718096; font-size: 0.9rem;">
-    <b>Silver Oak University</b> • BCA Semester 7 Computational Analytics Capstone<br>
-    Built with Python, Scikit-learn, XGBoost, Imbalanced-Learn & Streamlit
-</div>
-""", unsafe_allow_html=True)
