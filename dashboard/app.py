@@ -179,43 +179,6 @@ if selected_tab == "🏛️ Project & Academic Overview":
     </div>
     """, unsafe_allow_html=True)
 
-    st.subheader("📚 Explicit Alignment to BCA Semester 7 Computational Analytics Syllabus")
-    
-    col_u1, col_u2 = st.columns(2)
-    with col_u1:
-        st.markdown("""
-        <div class="syllabus-box">
-            <b>Unit 1: Foundations, Data Collection & Quality</b><br>
-            • Ingestion of verified loan applicants dataset (614 rows × 13 columns)<br>
-            • Data quality auditing: missing value quantification, duplicate audits, dtypes<br>
-            • Statistical foundations: central tendencies, IQR, and Pearson correlation analysis
-        </div>
-        <div class="syllabus-box">
-            <b>Unit 2: Preprocessing, Transformation & EDA</b><br>
-            • Missing value imputation: Median (skewed numerics) & Mode (categoricals)<br>
-            • Outlier detection: Boxplot analysis of Applicant & Coapplicant Income<br>
-            • Log transformations, standard scaling, and One-Hot categorical encoding<br>
-            • High-resolution Matplotlib/Seaborn visualization gallery
-        </div>
-        """, unsafe_allow_html=True)
-
-    with col_u2:
-        st.markdown("""
-        <div class="syllabus-box">
-            <b>Unit 3: Predictive Analytics & Machine Learning</b><br>
-            • Domain Feature Engineering: Total Income, Loan-to-Income, EMI-to-Income<br>
-            • Class Imbalance Treatment: <b>SMOTE</b> strictly on training split (no leakage)<br>
-            • Supervised Classification: Logistic Regression, Random Forest, XGBoost<br>
-            • Rigorous evaluation: Accuracy, Precision, Recall, F1, ROC-AUC, 5-Fold Stratified CV
-        </div>
-        <div class="syllabus-box">
-            <b>Unit 4: Business Intelligence, Dashboard & Decision Support</b><br>
-            • Interactive Streamlit dashboard for credit underwriting officers<br>
-            • Explainable AI: Feature importance ranking (Gini Impurity, Gain, and Coefficients)<br>
-            • Underwriting decision engine with transparent eligibility tiers (High, Moderate, Low)
-        </div>
-        """, unsafe_allow_html=True)
-
 # 2. Dataset & Data Quality Audit
 elif selected_tab == "📊 Dataset & Data Quality Audit":
     st.markdown('<p class="main-header">Dataset & Data Quality Audit</p>', unsafe_allow_html=True)
