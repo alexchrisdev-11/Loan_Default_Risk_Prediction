@@ -1,0 +1,4 @@
+Model,Accuracy,Precision (Approved),Recall (Approved),F1-Score (Approved),F1-Score (Rejected),ROC-AUC,CV 5-Fold F1 (Mean),CV 5-Fold F1 (Std)
+Logistic Regression,0.8049,0.8506,0.8706,0.8605,0.6757,0.8613,0.726,0.0377
+Random Forest,0.8374,0.8736,0.8941,0.8837,0.7297,0.8622,0.768,0.0357
+XGBoost,0.7967,0.875,0.8235,0.8485,0.6914,0.8418,0.7743,0.0379
