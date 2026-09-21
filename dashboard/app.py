@@ -149,9 +149,6 @@ selected_tab = st.sidebar.radio(
         "🎯 Applicant Approval Simulator"
     ]
 )
-st.sidebar.markdown("---")
-st.sidebar.info("💡 **Academic Integrity:** Models are trained strictly on the actual target (`Loan_Status`) without fabricated default assumptions.")
-
 # 1. Project & Academic Overview
 if selected_tab == "🏛️ Project & Academic Overview":
     st.markdown('<p class="main-header">Loan Approval Prediction System</p>', unsafe_allow_html=True)
